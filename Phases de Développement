@@ -1,0 +1,19 @@
+-Phase Préparatoire
+   . Pour commencer nous nous occuperons d'établir les plans et mockups complet du site et nous établirons un style commun à toute la page
+ 
+   . Nous mettrons ensuite en place le serveur sur une machine dédiée en y installant les logiciels necessaire: php7.1, phpmyadmin, mysql...
+
+-Phase SQL
+  Mise en place de la base de donnée avec des données testes
+  
+-Phase HTML/CSS
+  Pour suivre à celà, nous commencerons la mise en place du site page par page et non chacun sa page en commençant par la page d'accueil
+
+-Phase PHP/Sécurité
+  Le site enfin établi selon les plan des mockup nous y intégrerons les codes PHP modifiant alors la page selon la session tout en mettant en place la sécuritée
+
+-Phase de mise en ligne Beta
+  Comme l'indique le titre, nous mettrons en ligne le site en beta afin d'y tester les failles de sécuritée possible
+  
+- Phase Finale
+  Mise en place des données admin et des comptes utilisateurs sur le site puis publication finale.
