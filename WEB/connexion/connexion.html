@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>OLibrary</title>
+		<link href="https://fonts.googleapis.com/css?family=Cormorant:400i|Montserrat" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="page">
+			<div class="placebouton">
+				<input type="button" name="connexion" onclick="" value="Connexion" class="bouton" id="con">
+				<input type="button" name="inscription" onclick="" value="Inscription" class="bouton" id="ins">
+			</div>
+			<div class="connexion" id="grancon">
+				<form>
+					<input type="text" name="mail" placeholder="E-mail" class="mail">
+					<input type="password" name="password" placeholder="Mot de passe" class="mdp"><br/>
+					<input type="checkbox" name="save">Se souvenir de moi <a href="">(Mot de passe oublié ?)</a></input>
+					<input type="button" name="send" onclick="" value="Connexion" class="send">
+				</form>
+			</div>
+
+			<div class="inscription" id="grandins">
+			<div class="inscription-1">
+				<h3><u>Information Personnelle</u></h3>
+				<form class="Entree">
+					<div class="prnom">
+						<input type="text" name="nom" placeholder="Nom" class="mon">
+						<input type="text" name="prenom" placeholder="Prenom" class="premon">
+					</div>
+					<div class="cidate">
+						<select name="gender">
+							<option>Monsieur</option>
+							<option>Madame</option>
+							<option>Autre</option>
+						</select>
+
+						<input type="text" name="birth" placeholder="Date de naissance" class="date">
+					</div>
+						<input type="text" name="add" placeholder="Adresse" class="add">
+					<div class="vipos">
+						<input type="text" name="city" placeholder="Ville">
+						<input type="text" name="code" placeholder="Code postal">
+					</div>
+						<input type="button" name="next" value="Suivant" class="send">
+				</form>
+			</div>
+			<div class="inscription-2">
+					<h3><u>Authentification</u></h3>
+				<form class="auth0">
+					<div class="auth1">
+						<input type="text" name="mail" placeholder="E-mail" class="mai">
+						<input type="text" name="confmail" placeholder="Confirmation E-mail" class="confmai">
+					</div>
+					<div class="auth2">
+						<input type="text" name="password" placeholder="Mot de passe" class="pssw">
+						<input type="text" name="confpassword" placeholder="Confirmation Mot de passe" class="confpssw">
+					<div class="check">
+						<input type="checkbox" name="news">Je m'abonne au newstellers</input>
+					</div>
+						<input type="button" name="nexto" value="Suivant" class="send">
+					</div>
+				</form>
+			</div>
+		</div>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+
+</html>

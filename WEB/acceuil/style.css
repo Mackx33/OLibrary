@@ -1,0 +1,101 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+header
+{
+	border: solid 1px;
+	background-color: #33FF33;
+	width:85%;
+	min-width: 800px;
+}
+
+.goku
+{
+	height: 200px;
+}
+
+.panier
+{
+	height: 50px;
+}
+
+.user
+{
+	height: 50px;
+}
+
+.header
+{
+	margin: auto;
+	position: absolute;
+}
+
+.search
+{
+	margin-left: 250px;
+	position: relative;
+	margin-top: -100px;
+}
+
+.achat
+{
+	margin-left: 680px;
+	position: relative;
+	margin-top: -55px;
+}
+
+.compte
+{
+	margin-left: 1000px;
+	position: relative;
+	margin-top: -55px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 85%;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
