@@ -1,0 +1,54 @@
+footer{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#barre {
+    border: 1px solid black;
+    width: 1000px;
+    margin: auto;
+}
+
+#image
+{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#image img
+{
+    margin-top: 20px;
+    width: 80px;
+    height:80px;
+}
+
+#footbar
+{
+    top: 90%;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: 20px;
+
+}
+
+#liensFootbar
+{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#liensFootbar li
+{
+    list-style-type: none;
+}
+
+#liensFootbar li a
+{
+    text-decoration: none;
+}
